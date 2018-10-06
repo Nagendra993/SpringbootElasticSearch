@@ -6,6 +6,8 @@ import org.springframework.data.elasticsearch.annotations.Document;
 @Document(indexName = "javainterviewpoint", type = "student")
 public class Student
 {
+	
+	//haii
     @Id
     private long id;
     
